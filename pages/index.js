@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-const Home = (props) => (
+const Home = () => (
   <div className="container">
     <Head>
       <title>Create Next App</title>
@@ -11,19 +11,7 @@ const Home = (props) => (
     <main>
         <ul>
             <li>
-                <Link href="/post?id=first">
-                    <a>My first blog post</a>
-                </Link>
-            </li>
-            <li>
-                <Link href="/post?id=second">
-                    <a>My second blog post</a>
-                </Link>
-            </li>
-            <li>
-                <Link href="/post?id=last">
-                    <a>My last blog post</a>
-                </Link>
+                <a href="/post/best" target="_blank">This work on a Vercel deploy but not with 'vercel dev'</a>
             </li>
         </ul>
     </main>
