@@ -1,5 +1,10 @@
 {
   "rewrites": [
-    { "source":  "/post/:id", "destination":  "post"}
-  ]
+    { "source":  "/post/:id", "destination":  "post/"}
+  ],
+  "functions": {
+    "pages/**": {
+      "memory": 3008
+    }
+  }
 }
