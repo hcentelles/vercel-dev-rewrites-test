@@ -11,7 +11,7 @@ const Home = () => (
     <main>
         <ul>
             <li>
-                <a href="/post/best" target="_blank">This work on a Vercel deploy but not with 'vercel dev'</a>
+                <a href="/post/best" target="_blank">Click this link, it works on a Vercel deploy but not with 'vercel dev'</a>
             </li>
         </ul>
     </main>
