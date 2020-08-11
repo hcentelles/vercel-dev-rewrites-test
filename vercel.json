@@ -1,7 +1,4 @@
 {
-  "rewrites": [
-    { "source":  "/post/:id", "destination":  "post/"}
-  ],
   "functions": {
     "pages/**": {
       "memory": 1024
